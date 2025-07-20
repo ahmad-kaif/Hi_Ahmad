@@ -12,11 +12,11 @@ export default function Header() {
           Home
         </Link>
 
-        <FaWalking className="ml-3" />
+        <FaWalking className="w-4 ml-1 md:ml-3" />
 
         <Link
           to="/side-projects"
-          className="text-sm text-blue-400 hover:underline ml-2"
+          className="text-sm text-blue-400 hover:underline "
         >
           Journey
         </Link>

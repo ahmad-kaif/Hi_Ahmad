@@ -8,7 +8,7 @@ import SideProjectsPage from './pages/SideProjectsPage';
 export default function App() {
   return (
     <div className="min-h-screen  bg-[#0f0f0f] text-white font-sans">
-      <main className="max-w-4xl mx-auto px-6">
+      <main className="md:max-w-4xl md:mx-auto md:px-6  px-7 max-w-8xl mx-4">
         <Header />
         <Routes>
           <Route path="/" element={<MainPage />} />
